@@ -1,7 +1,16 @@
+using Microsoft.EntityFrameworkCore;
+using PersonalRecord.Domain.Models.Entities;
+using PersonalRecord.Domain.Models;
+using PersonalRecord.Domain;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var databasePath = DatabaseHelper.GetDatabasePath();
+builder.Services.AddDbContext<PersonalRecordContext>(opt => opt.UseSqlite($"Data Source={databasePath}"));
+builder.Services.AddTransient<PreparationDatabase>();
 
 var app = builder.Build();
 
