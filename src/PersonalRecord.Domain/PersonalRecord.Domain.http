@@ -1,6 +1,0 @@
-@PersonalRecord.Domain_HostAddress = http://localhost:5244
-
-GET {{PersonalRecord.Domain_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
