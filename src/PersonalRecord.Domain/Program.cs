@@ -17,6 +17,7 @@ builder.Services.AddTransient<PreparationDatabase>();
 //Exporters
 builder.Services.AddTransient<ExerciseExporter>();
 builder.Services.AddTransient<WorkoutExporter>();
+builder.Services.AddTransient<WorkoutToExerciseExporter>();
 
 var app = builder.Build();
 

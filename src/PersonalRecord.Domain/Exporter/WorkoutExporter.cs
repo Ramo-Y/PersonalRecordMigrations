@@ -7,6 +7,8 @@
 
     public class WorkoutExporter : ExporterBase<Workout>
     {
+        internal static Guid HelenGuid = new("96e57fc6-12b4-4389-b8c4-e4a4b6a83672");
+
         public override async Task GenerateAndExportAsync()
         {
             var helenStringBuilder = new StringBuilder();
@@ -20,14 +22,14 @@
             {
                 new()
                 {
-                    WorkoutID = new Guid("96e57fc6-12b4-4389-b8c4-e4a4b6a83672"),
+                    WorkoutID = HelenGuid,
                     WokName = "Helen",
                     WokHeader = "3 Rounds For Time",
                     WokNotes = helenStringBuilder.ToString()
                 },
             };
 
-            await Export(list, nameof(Workout));
+            await Export(list);
         }
     }
 }
