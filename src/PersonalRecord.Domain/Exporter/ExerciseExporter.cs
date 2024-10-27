@@ -6,7 +6,7 @@
 
     public class ExerciseExporter : ExporterBase<Exercise>
     {
-        public async override Task GenerateAndExportAsync()
+        public override async Task GenerateAndExportAsync()
         {
             var list = new List<Exercise>
             {

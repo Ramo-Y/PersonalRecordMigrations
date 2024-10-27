@@ -9,10 +9,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//Database
 var databasePath = DatabaseHelper.GetDatabasePath();
 builder.Services.AddDbContext<PersonalRecordContext>(opt => opt.UseSqlite($"Data Source={databasePath}"));
 builder.Services.AddTransient<PreparationDatabase>();
+
+//Exporters
 builder.Services.AddTransient<ExerciseExporter>();
+builder.Services.AddTransient<WorkoutExporter>();
 
 var app = builder.Build();
 
