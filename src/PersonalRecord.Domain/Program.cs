@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using PersonalRecord.Domain.Models.Entities;
 using PersonalRecord.Domain.Models;
 using PersonalRecord.Domain;
+using PersonalRecord.Domain.Exporter;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddControllersWithViews();
 var databasePath = DatabaseHelper.GetDatabasePath();
 builder.Services.AddDbContext<PersonalRecordContext>(opt => opt.UseSqlite($"Data Source={databasePath}"));
 builder.Services.AddTransient<PreparationDatabase>();
+builder.Services.AddTransient<ExerciseExporter>();
 
 var app = builder.Build();
 
