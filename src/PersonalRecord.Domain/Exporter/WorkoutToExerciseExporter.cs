@@ -28,7 +28,7 @@
                     WorkoutToExerciseID = new Guid("79f9e18e-9c75-4ad4-aa7a-6ef1ccfe84b6"),
                     WteWorkoutID_FK = WorkoutExporter.HelenGuid,
                     WteExerciseID_FK = ExerciseExporter.PullUpsGuid,
-                    WteExerciseRepCount = 21
+                    WteExerciseRepCount = 12
                 }
             };
 
