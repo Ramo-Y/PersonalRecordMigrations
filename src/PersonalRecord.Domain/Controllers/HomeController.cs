@@ -12,20 +12,17 @@ namespace PersonalRecord.Domain.Controllers
         private readonly PreparationDatabase _preparationDatabase;
         private readonly ExerciseExporter _exerciseExporter;
         private readonly WorkoutExporter _workoutExporter;
-        private readonly WorkoutToExerciseExporter _workoutToExerciseExporter;
 
         public HomeController(
             ILogger<HomeController> logger,
             PreparationDatabase preparationDatabase,
             ExerciseExporter exerciseExporter,
-            WorkoutExporter workoutExporter,
-            WorkoutToExerciseExporter workoutToExerciseExporter)
+            WorkoutExporter workoutExporter)
         {
             _logger = logger;
             _preparationDatabase = preparationDatabase;
             _exerciseExporter = exerciseExporter;
             _workoutExporter = workoutExporter;
-            _workoutToExerciseExporter = workoutToExerciseExporter;
         }
 
         public IActionResult Index()
@@ -42,7 +39,6 @@ namespace PersonalRecord.Domain.Controllers
         {
             await _exerciseExporter.GenerateAndExportAsync();
             await _workoutExporter.GenerateAndExportAsync();
-            await _workoutToExerciseExporter.GenerateAndExportAsync();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
