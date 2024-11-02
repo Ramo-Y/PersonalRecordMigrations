@@ -13,7 +13,7 @@
         {
             var helenStringBuilder = new StringBuilder();
             helenStringBuilder.AppendLine("Good Times for Helen:");
-            helenStringBuilder.AppendLine("- Beginner: 15-17 minutes");
+            helenStringBuilder.AppendLine("– Beginner: 15-17 minutes");
             helenStringBuilder.AppendLine("– Intermediate: 11-14 minutes");
             helenStringBuilder.AppendLine("– Advanced: 9-10 minutes");
             helenStringBuilder.AppendLine("– Elite: <8 minutes");
