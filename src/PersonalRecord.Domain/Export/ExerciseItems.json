@@ -10,5 +10,13 @@
   {
     "ExerciseID": "c6f50c62-8d9a-4367-944f-c7244b23366e",
     "ExrName": "Pull-Ups"
+  },
+  {
+    "ExerciseID": "2e28deb5-d9b9-4900-b11d-519d01d86b3e",
+    "ExrName": "Deadlifts"
+  },
+  {
+    "ExerciseID": "7efdf00a-0428-40a6-afc8-96a3c2ccd4d8",
+    "ExrName": "Handstand Push-Ups"
   }
 ]

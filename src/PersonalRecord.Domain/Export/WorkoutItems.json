@@ -3,7 +3,7 @@
     "WorkoutID": "96e57fc6-12b4-4389-b8c4-e4a4b6a83672",
     "WokName": "Helen",
     "WokHeader": "3 Rounds For Time",
-    "WokNotes": "Good Times for Helen:\r\n- Beginner: 15-17 minutes\r\n– Intermediate: 11-14 minutes\r\n– Advanced: 9-10 minutes\r\n– Elite: <8 minutes\r\n",
+    "WokNotes": "Good Times for Helen:\r\n– Beginner: 15-17 minutes\r\n– Intermediate: 11-14 minutes\r\n– Advanced: 9-10 minutes\r\n– Elite: <8 minutes\r\n",
     "WokWorkoutToExerciseItems": [
       {
         "WorkoutToExerciseID": "dc52c198-a867-4c92-b964-c6d28e359b44",
@@ -38,6 +38,82 @@
         "WteExerciseDistance": 0.0,
         "WteExerciseTime": "00:00:00"
       }
-    ]
+    ],
+    "IsExpanded": false
+  },
+  {
+    "WorkoutID": "1b8c1fcb-1c32-4416-a4ef-2471a9597c84",
+    "WokName": "Diane",
+    "WokHeader": "21-15-9 Rounds For Time",
+    "WokNotes": "Good Times for Diane:\r\n– Beginner: 10-14 minutes\r\n– Intermediate: 6-9 minutes\r\n– Advanced: 5-6 minutes\r\n– Elite: <4 minutes\r\n",
+    "WokWorkoutToExerciseItems": [
+      {
+        "WorkoutToExerciseID": "bc75eb4c-586a-45f0-a0cd-2428b14f28e7",
+        "WteWorkoutID_FK": "1b8c1fcb-1c32-4416-a4ef-2471a9597c84",
+        "Workout": null,
+        "WteExerciseID_FK": "2e28deb5-d9b9-4900-b11d-519d01d86b3e",
+        "Exercise": null,
+        "WteExerciseRepCount": 21.0,
+        "WteExerciseWeight": 0.0,
+        "WteExerciseDistance": 0.0,
+        "WteExerciseTime": "00:00:00"
+      },
+      {
+        "WorkoutToExerciseID": "86fe2993-c428-4131-a65e-f467449d2953",
+        "WteWorkoutID_FK": "1b8c1fcb-1c32-4416-a4ef-2471a9597c84",
+        "Workout": null,
+        "WteExerciseID_FK": "7efdf00a-0428-40a6-afc8-96a3c2ccd4d8",
+        "Exercise": null,
+        "WteExerciseRepCount": 21.0,
+        "WteExerciseWeight": 0.0,
+        "WteExerciseDistance": 0.0,
+        "WteExerciseTime": "00:00:00"
+      },
+      {
+        "WorkoutToExerciseID": "54d9b35c-95a3-4799-880c-021ee76218de",
+        "WteWorkoutID_FK": "1b8c1fcb-1c32-4416-a4ef-2471a9597c84",
+        "Workout": null,
+        "WteExerciseID_FK": "2e28deb5-d9b9-4900-b11d-519d01d86b3e",
+        "Exercise": null,
+        "WteExerciseRepCount": 15.0,
+        "WteExerciseWeight": 0.0,
+        "WteExerciseDistance": 0.0,
+        "WteExerciseTime": "00:00:00"
+      },
+      {
+        "WorkoutToExerciseID": "5b3d2d12-62eb-4a8f-9fdd-89490c431d52",
+        "WteWorkoutID_FK": "1b8c1fcb-1c32-4416-a4ef-2471a9597c84",
+        "Workout": null,
+        "WteExerciseID_FK": "7efdf00a-0428-40a6-afc8-96a3c2ccd4d8",
+        "Exercise": null,
+        "WteExerciseRepCount": 15.0,
+        "WteExerciseWeight": 0.0,
+        "WteExerciseDistance": 0.0,
+        "WteExerciseTime": "00:00:00"
+      },
+      {
+        "WorkoutToExerciseID": "298e14f4-86c3-4e37-bd29-75734a9714bf",
+        "WteWorkoutID_FK": "1b8c1fcb-1c32-4416-a4ef-2471a9597c84",
+        "Workout": null,
+        "WteExerciseID_FK": "2e28deb5-d9b9-4900-b11d-519d01d86b3e",
+        "Exercise": null,
+        "WteExerciseRepCount": 9.0,
+        "WteExerciseWeight": 0.0,
+        "WteExerciseDistance": 0.0,
+        "WteExerciseTime": "00:00:00"
+      },
+      {
+        "WorkoutToExerciseID": "4603e55c-ec51-4ba5-9483-b727eef79da0",
+        "WteWorkoutID_FK": "1b8c1fcb-1c32-4416-a4ef-2471a9597c84",
+        "Workout": null,
+        "WteExerciseID_FK": "7efdf00a-0428-40a6-afc8-96a3c2ccd4d8",
+        "Exercise": null,
+        "WteExerciseRepCount": 9.0,
+        "WteExerciseWeight": 0.0,
+        "WteExerciseDistance": 0.0,
+        "WteExerciseTime": "00:00:00"
+      }
+    ],
+    "IsExpanded": false
   }
 ]
