@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../ReadMe.md" />
+  </Folder>
+  <Project Path="PersonalRecord.Domain/PersonalRecord.Domain.csproj" />
+</Solution>
